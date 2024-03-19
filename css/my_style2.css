@@ -18,3 +18,12 @@ p.redred{
 .blueblue{
     color:#8AA6AA;
 }
+
+.expedu_icon{
+    color: blue;
+}
+
+.expedu_icon:hover{
+    background-color: aquamarine;
+    color: blue;
+}
