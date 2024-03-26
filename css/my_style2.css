@@ -1,18 +1,20 @@
-{
-    letter-spacing: 0.8px;
-    line-height: 1.5em;   
-}
 
 body{
     font-family:'Noto Sans TC',sans-serif;
 }
 p.redred{
-    color:red;
+    color:aliceblue;
+    background-color: black rgb(138,43,226,0.5);
+    background-image: url(../assets/img/@luhwzs\ or\ @soiveur\ 💗🐰.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 20px dashed bisque;
+    border-color: #8AA6AA;
     font-size: 40px;
     text-align: center;
-    text-indent: 2em;
-    letter-spacing: 0.8px;
-    background-color: #DC9E82;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing:0.8px;
+    line-height:1.5em;
 }
 
 .blueblue{
@@ -26,4 +28,24 @@ p.redred{
 .expedu_icon:hover{
     background-color: aquamarine;
     color: blue;
+}
+
+/*p#redred{
+    color: red;
+    border: 10px solid;
+    background-color: black;
+    background-image: url(../assets/img/_ (2).jpeg);
+    backgroundrepeat: no-repeat;
+    background-size: cover;
+    border-colors: : blue;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing:0.8px;
+    line-height:1.5em;
+}*/
+
+.bg-primary{
+    background-color: rgb(221, 106, 125) !important;
+    background-image: url(../assets/img/The\ Powerpuff\ Girls\ _\ Free\ Videos\ and\ Online\ Games.jpeg);
 }
