@@ -3,13 +3,13 @@ body{
     font-family:'Noto Sans TC',sans-serif;
 }
 p.redred{
-    color:aliceblue;
+    color:rgb(45, 24, 37);
     background-color: black rgb(138,43,226,0.5);
-    background-image: url(../assets/img/@luhwzs\ or\ @soiveur\ 💗🐰.jpeg);
+    background-image: url(../assets/img/_\ \(3\).jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     border: 20px dashed bisque;
-    border-color: #8AA6AA;
+    border-color: palevioletred;
     font-size: 40px;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
@@ -18,16 +18,16 @@ p.redred{
 }
 
 .blueblue{
-    color:#8AA6AA;
+    color:#f8c6e4;
 }
 
 .expedu_icon{
-    color: blue;
+    color: rgb(238, 53, 127);
 }
 
 .expedu_icon:hover{
-    background-color: aquamarine;
-    color: blue;
+    background-color: rgb(246, 141, 251);
+    color: rgb(241, 230, 237);
 }
 
 /*p#redred{
@@ -47,5 +47,7 @@ p.redred{
 
 .bg-primary{
     background-color: rgb(221, 106, 125) !important;
-    background-image: url(../assets/img/The\ Powerpuff\ Girls\ _\ Free\ Videos\ and\ Online\ Games.jpeg);
+    background-image: url(../assets/img/_\ \(4\).jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
