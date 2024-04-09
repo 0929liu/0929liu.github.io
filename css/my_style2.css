@@ -51,3 +51,35 @@ p.redred{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+table.cynthiatable{
+    width:80%;
+    background-color: #f8c6e4;
+    border-collapse: separate;
+}
+
+table.cynthiatable th{
+    text-align: center;
+    background-color: rgb(161, 15, 107);
+    color: palevioletred;
+    border:10px solid #f3e9ef; 
+}
+
+table.cynthiatable th{
+    text-align: center;
+}
+
+table.cynthiatable td{
+    text-align: center;
+    border:10px solid #f3e9ef; 
+}
+
+table.cynthiatable tr:nth-child(even){
+    background-color: plum;
+    color: purple;
+}
+
+table.cynthiatable tr:nth-child(odd){
+    background-color: pink;
+}
+
