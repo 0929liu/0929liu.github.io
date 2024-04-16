@@ -2,27 +2,37 @@
 body{
     font-family:'Noto Sans TC',sans-serif;
 }
-p.redred{
-    color:rgb(45, 24, 37);
-    background-color: black rgb(138,43,226,0.5);
-    background-image: url(../assets/img/_\ \(3\).jpeg);
+
+div#redred {
+    padding: 50px 150px ;
+    margin: 100px 100px 100px 100px;
+    color: rgb(47, 78, 129);
+    background-color: rgba(195, 209, 238, 0.5); /* 背景色透明度設定需要放在 RGBA 中 */
+    background-image: url("../assets/img/Aura morada.jpeg"); /* 背景圖片路徑需要使用雙引號，並且空格不需要跳脫符號 */
     background-repeat: no-repeat;
     background-size: cover;
-    border: 20px dashed bisque;
-    border-color: palevioletred;
+    border: 20px solid rgb(196, 238, 255);
+    border-radius: 30px;
+    border-color: rgb(56, 92, 155);
     font-size: 40px;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-    letter-spacing:0.8px;
-    line-height:1.5em;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+}
+
+.pinkpink{
+    color: rgb(43, 43, 141);
+    font-size: larger;
 }
 
 .blueblue{
-    color:#f8c6e4;
+    color:#458cc3;
+    font-size: xx-small;
 }
 
 .expedu_icon{
-    color: rgb(238, 53, 127);
+    color: rgb(59, 84, 205);
 }
 
 .expedu_icon:hover{
@@ -47,10 +57,11 @@ p.redred{
 
 .bg-primary{
     background-color: rgb(221, 106, 125) !important;
-    background-image: url(../assets/img/_\ \(4\).jpeg);
+    background-image: url(../assets/img/Color\ Story\ _\ Winter\ Blues\ —\ Carmela\ Designs.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 
 table.cynthiatable{
     width:80%;
@@ -83,3 +94,15 @@ table.cynthiatable tr:nth-child(odd){
     background-color: pink;
 }
 
+ul.cynthialist {
+    list-style-type: square;
+}
+
+ol.cynthialist {
+    list-style-type: square;
+}
+
+ul.cynthialist>li:hover,
+ol.cynthialist>li:hover {
+    background-color: #f8c6e4;
+}
