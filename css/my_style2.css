@@ -8,7 +8,7 @@ div#redred {
     margin: 100px 100px 100px 100px;
     color: rgb(47, 78, 129);
     background-color: rgba(195, 209, 238, 0.5); /* 背景色透明度設定需要放在 RGBA 中 */
-    background-image: url("../assets/img/Aura morada.jpeg"); /* 背景圖片路徑需要使用雙引號，並且空格不需要跳脫符號 */
+    background-image: url("../assets/img/Aura\ morada.jpeg"); /* 背景圖片路徑需要使用雙引號，並且空格不需要跳脫符號 */
     background-repeat: no-repeat;
     background-size: cover;
     border: 20px solid rgb(196, 238, 255);
@@ -21,15 +21,42 @@ div#redred {
     line-height: 1.5em;
 }
 
+
+
+
 .pinkpink{
     color: rgb(43, 43, 141);
     font-size: larger;
 }
 
-.blueblue{
-    color:#458cc3;
+#blueblue {
+    color: #458cc3;
     font-size: xx-small;
+    background-image: url("../assets/img/blackcrowstudios_com.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center; /* 將背景圖片置於元素的中心位置 */
+    position: relative;
 }
+
+#blueblue {
+    /* 其他樣式 */
+    position: relative; /* 設置相對定位，以便在其中絕對定位子元素 */
+}
+
+#blueblue img {
+    vertical-align: bottom; /* 圖片底部與所在行的底線對齊 */
+    position: absolute; /* 絕對定位，以便將圖片放置在內容的底部 */
+    bottom: 0; /* 將圖片定位到父元素底部 */
+}
+
+.social-icons {
+    /* 其他樣式 */
+    position: absolute; /* 絕對定位，以便將社交媒體圖標放置在內容的底部 */
+    bottom: 0; /* 將社交媒體圖標定位到父元素底部 */
+    left: 0; /* 調整社交媒體圖標的水平位置 */
+}
+
 
 .expedu_icon{
     color: rgb(59, 84, 205);
@@ -57,7 +84,7 @@ div#redred {
 
 .bg-primary{
     background-color: rgb(221, 106, 125) !important;
-    background-image: url(../assets/img/Color\ Story\ _\ Winter\ Blues\ —\ Carmela\ Designs.jpeg);
+    background-image: url(../assets/img/Aura\ morada.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 }
