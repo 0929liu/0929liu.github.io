@@ -17,6 +17,7 @@ body{
 }
 
 
+
 .redred {
     padding: 50px 150px ;
     margin: 100px 100px 100px 100px;
@@ -77,20 +78,7 @@ body{
     color: rgb(139, 161, 221);
 }
 
-/*p#redred{
-    color: red;
-    border: 10px solid;
-    background-color: black;
-    background-image: url(../assets/img/_ (2).jpeg);
-    backgroundrepeat: no-repeat;
-    background-size: cover;
-    border-colors: : blue;
-    font-size: 40px;
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    letter-spacing:0.8px;
-    line-height:1.5em;
-}*/
+
 
 .bg-primary{
     background-color: rgb(55, 95, 196) !important;
