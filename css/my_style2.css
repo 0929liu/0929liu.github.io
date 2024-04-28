@@ -3,7 +3,21 @@ body{
     font-family:'Noto Sans TC',sans-serif;
 }
 
-div#redred {
+.social-icons {
+    color: rgb(135, 146, 176); /* 原始顏色 */
+}
+
+.social-icons:hover {
+    color: #ff0000; /* 點擊時的新顏色 */
+}
+
+
+.subheading a {
+    color: rgb(13, 81, 105); /* 更改信箱部分的顏色為藍色 */
+}
+
+
+.redred {
     padding: 50px 150px ;
     margin: 100px 100px 100px 100px;
     color: rgb(47, 78, 129);
@@ -26,45 +40,41 @@ div#redred {
 
 .pinkpink{
     color: rgb(43, 43, 141);
-    font-size: larger;
+    
 }
 
 #blueblue {
-    color: #458cc3;
-    font-size: xx-small;
     background-image: url("../assets/img/blackcrowstudios_com.jpeg");
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center; /* 將背景圖片置於元素的中心位置 */
-    position: relative;
-}
-
-#blueblue {
-    /* 其他樣式 */
-    position: relative; /* 設置相對定位，以便在其中絕對定位子元素 */
+    background-size: 1700px 400px; /* 調整背景圖片大小為元素寬度的1.5倍和高度的一半 */
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    margin-right: 10px; /* 調整圖片右邊的外邊距，以創建分隔空間 */
 }
 
 #blueblue img {
-    vertical-align: bottom; /* 圖片底部與所在行的底線對齊 */
-    position: absolute; /* 絕對定位，以便將圖片放置在內容的底部 */
-    bottom: 0; /* 將圖片定位到父元素底部 */
+    margin-top: 50px; /* 調整圖片上方的外邊距，以創建底部邊距 */
+    vertical-align: top; /* 調整文字的垂直對齊方式為底部 */
 }
 
-.social-icons {
-    /* 其他樣式 */
-    position: absolute; /* 絕對定位，以便將社交媒體圖標放置在內容的底部 */
-    bottom: 0; /* 將社交媒體圖標定位到父元素底部 */
-    left: 0; /* 調整社交媒體圖標的水平位置 */
+.Protfolios-icons{
+    color: rgb(186, 192, 224);
+    font-size: 50px; /* 设置图标的大小 */
+    margin-right: 10px; /* 设置图标之间的右侧间距 */
 }
+
+
 
 
 .expedu_icon{
-    color: rgb(59, 84, 205);
+    color: rgb(186, 192, 224);
 }
 
 .expedu_icon:hover{
-    background-color: rgb(246, 141, 251);
-    color: rgb(241, 230, 237);
+    background-color: rgb(53, 150, 202);
+    color: rgb(139, 161, 221);
 }
 
 /*p#redred{
@@ -83,7 +93,7 @@ div#redred {
 }*/
 
 .bg-primary{
-    background-color: rgb(221, 106, 125) !important;
+    background-color: rgb(55, 95, 196) !important;
     background-image: url(../assets/img/Aura\ morada.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -91,16 +101,17 @@ div#redred {
 
 
 table.cynthiatable{
-    width:80%;
-    background-color: #f8c6e4;
-    border-collapse: separate;
+    width:78%;
+    background-color: #6372d6;
+    border-collapse:initial;
+    margin-left: 150px; 
 }
 
 table.cynthiatable th{
     text-align: center;
-    background-color: rgb(161, 15, 107);
-    color: palevioletred;
-    border:10px solid #f3e9ef; 
+    background-color: rgb(15, 64, 161);
+    color: rgb(112, 187, 216);
+    border:10px solid #e9eff3; 
 }
 
 table.cynthiatable th{
@@ -109,27 +120,29 @@ table.cynthiatable th{
 
 table.cynthiatable td{
     text-align: center;
-    border:10px solid #f3e9ef; 
+    border:10px solid #e9eef3; 
 }
 
 table.cynthiatable tr:nth-child(even){
-    background-color: plum;
-    color: purple;
+    background-color: rgb(161, 160, 221);
+    color: rgb(0, 60, 128);
 }
 
 table.cynthiatable tr:nth-child(odd){
-    background-color: pink;
+    background-color: rgb(192, 217, 255);
 }
 
 ul.cynthialist {
-    list-style-type: square;
+    list-style-type: lower-roman;
 }
 
 ol.cynthialist {
-    list-style-type: square;
+    list-style-type: lower-roman;
+    ;
 }
 
 ul.cynthialist>li:hover,
 ol.cynthialist>li:hover {
-    background-color: #f8c6e4;
+    background-color: #c9c6f8;
+    width:78%;
 }
