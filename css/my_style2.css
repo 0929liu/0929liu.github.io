@@ -47,16 +47,20 @@ body{
 #blueblue {
     background-image: url("../assets/img/blackcrowstudios_com.jpeg");
     background-repeat: no-repeat;
-    background-size: 1700px 400px; /* 調整背景圖片大小為元素寬度的1.5倍和高度的一半 */
+    background-size: 1900px 400px; /* 调整背景图片大小为元素宽度的1.5倍和高度的一半 */
     font-size: larger;
     font-family: 'Courier New', Courier, monospace;
     letter-spacing: 0.8px;
     line-height: 1.5em;
-    margin-right: 10px; /* 調整圖片右邊的外邊距，以創建分隔空間 */
+    margin-left: 0px; /* 调整图像右边的外边距，以创建分隔空间 */
 }
+
+
+
 
 #blueblue img {
     margin-top: 50px; /* 調整圖片上方的外邊距，以創建底部邊距 */
+    margin-right: 50px;
     vertical-align: top; /* 調整文字的垂直對齊方式為底部 */
 }
 
@@ -133,4 +137,14 @@ ul.cynthialist>li:hover,
 ol.cynthialist>li:hover {
     background-color: #c9c6f8;
     width:78%;
+}
+
+.photo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photo-group {
+    margin-bottom: 20px;
 }
