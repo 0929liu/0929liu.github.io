@@ -3,12 +3,8 @@ body {
     background-image: url("../assets/img/1234.jpg"); /* 设置背景图片的 URL */
     background-repeat: no-repeat; /* 设置背景图片不重复 */
     background-size: 100vw 101vh; /* 让背景图片覆盖整个页面 */
+    background-color: #D9D9D9
 }
-
-/*section#interests.resume-section {
-    background-image: url("../assets/img/1234.jpg"); /* 设置背景图片的 URL */
-    /*background-repeat: no-repeat; /* 设置背景图片不重复 */
-   /* background-size: 100% 100%; /* 让背景图片覆盖整个页面，并保持比例 */
 
 
 body{
