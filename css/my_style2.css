@@ -1,4 +1,16 @@
 
+body {
+    background-image: url("../assets/img/1234.jpg"); /* 设置背景图片的 URL */
+    background-repeat: no-repeat; /* 设置背景图片不重复 */
+    background-size: 100vw 101vh; /* 让背景图片覆盖整个页面 */
+}
+
+/*section#interests.resume-section {
+    background-image: url("../assets/img/1234.jpg"); /* 设置背景图片的 URL */
+    /*background-repeat: no-repeat; /* 设置背景图片不重复 */
+   /* background-size: 100% 100%; /* 让背景图片覆盖整个页面，并保持比例 */
+
+
 body{
     font-family:'Noto Sans TC',sans-serif;
 }
@@ -40,20 +52,40 @@ body{
 
 
 .pinkpink{
-    color: rgb(43, 43, 141);
-    
+    color: rgb(13, 81, 105);
 }
 
 #blueblue {
-    background-image: url("../assets/img/blackcrowstudios_com.jpeg");
-    background-repeat: no-repeat;
-    background-size: 1900px 400px; /* 调整背景图片大小为元素宽度的1.5倍和高度的一半 */
-    font-size: larger;
-    font-family: 'Courier New', Courier, monospace;
-    letter-spacing: 0.8px;
-    line-height: 1.5em;
-    margin-left: 0px; /* 调整图像右边的外边距，以创建分隔空间 */
+    position: relative; /* 將容器設置為相對定位 */
+    color: rgb(47, 78, 129); /* 設置文字顏色 */
+    border-radius: 50px; /* 圓角邊框 */
+    background-color: rgba(184, 209, 231, 0.221); /* 背景顏色 */
+    background-repeat: no-repeat; /* 背景不重複 */
+    background-size: 200px 50px; /* 背景大小 */
+    font-size: larger; /* 設置字體大小 */
+    font-family: 'Courier New', Courier, monospace; /* 設置字體 */
+    letter-spacing: 0.8px; /* 字母間距 */
+    line-height: 5em; /* 行高 */
+    margin-left: 10px; /* 左邊距 */
+    padding: 0px 200px; /* 內邊距 */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5); /* 添加陰影效果 */
 }
+
+#blueblue img {
+    position: relative; /* 設置圖片的定位方式為相對定位 */
+    bottom: 0px; /* 設置圖片與容器頂部的距離 */
+    left: 0px; /* 設置圖片與容器左側的距離 */
+    width: 200px; /* 設置圖片寬度 */
+    height: 200px; /* 設置圖片高度 */
+    border-radius: 50px; /* 設置圖片的圓角 */
+}
+
+#blueblue .content {
+    padding-left: 250px; /* 調整文本內容的內邊距，以避免與圖片重疊 */
+}
+
+
+
 
 
 
